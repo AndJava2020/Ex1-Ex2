@@ -12,8 +12,8 @@ public class Main {
         System.out.println(task3_3());
         System.out.println(task4(args));
         task5();
-        System.out.println(task6_1());
-        System.out.println(task6_2());
+        task6_1();
+        task6_2();
         System.out.println(task7(5));
     }
     public static int task3_1() {
@@ -87,7 +87,7 @@ public class Main {
             System.out.println(L);
         }
     }
-    public static int task6_1(){
+    public static void task6_1(){
         System.out.println("Ans6_1");
         Random rand = new Random();
         int arr[] = new int[10];
@@ -102,9 +102,8 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+" ");
         }
-        return 0;
     }
-    public static int task6_2(){
+    public static void task6_2(){
         System.out.println("Ans6_2");
         Random rand = new Random();
         int arr[] = new int[10];
@@ -119,7 +118,6 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+" ");
         }
-        return 0;
     }
     public static int task7(int n){
         System.out.println("Ans7");
