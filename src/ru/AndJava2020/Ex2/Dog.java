@@ -20,8 +20,15 @@ public class Dog {
     public void setName(String name) {
         this.name = name;
     }
-    public int AgetoHuman(int age){
-        this.age = age;
+    public int AgetoHuman(){
         return age*7;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", age=" + age + ", AgetoHuman=" + AgetoHuman() +
+                '}';
     }
 }
